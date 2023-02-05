@@ -56,6 +56,13 @@ body {
     color: white;
     font-weight: 400;
     box-shadow: inset 0px -3px rgba(0, 0, 0, 0.233);
+    will-change: transform;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.button:hover {
+    transform: scale(1.02);
 }
 
 .button_iOS {
